@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Builds & Tests
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Umgebungsvariablen (Beispieldatei bleibt versioniert)
+.env*
+!.env.example
+
+# Editor / Tools
+.continue/
+.DS_Store
