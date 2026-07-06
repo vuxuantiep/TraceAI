@@ -798,7 +798,15 @@ function CorporateLLMView() {
              </div>
              <div>
                <div className="text-[13px] font-bold text-[#1d1d1f] truncate leading-tight">
-                 Vu Xuan Tiep (vuxuantiep.de)
+                 Tiep /{' '}
+                 <a
+                   href="https://vuxuantiep.de"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="hover:underline"
+                 >
+                   vuxuantiep.de
+                 </a>
                </div>
                <div className="text-[10px] text-[#86868b] font-medium mt-0.5">
                  Pro · 15 Seats
@@ -874,7 +882,17 @@ function CorporateLLMView() {
               <div className="text-[13px] font-bold text-gray-900 leading-tight">
                 Tiep
               </div>
-              <div className="text-[11px] text-gray-500">Vu Xuan Tiep (vuxuantiep.de)</div>
+              <div className="text-[11px] text-gray-500">
+                Tiep /{' '}
+                <a
+                  href="https://vuxuantiep.de"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  vuxuantiep.de
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -911,7 +929,7 @@ function CorporateLLMAgentsView() {
           />
         </div>
         <div className="text-[12px] font-bold text-gray-400 tracking-wider">
-          itiep.de
+          vuxuantiep.de
         </div>
       </div>
 
@@ -1017,7 +1035,17 @@ function CorporateLLMTeamView() {
             <h1 className="text-[32px] font-extrabold text-[#1d1d1f] mb-1 tracking-tight">
               Team & Verwaltung
             </h1>
-            <p className="text-[#86868b] text-[14px]">Vu Xuan Tiep (vuxuantiep.de)</p>
+            <p className="text-[#86868b] text-[14px]">
+              Tiep /{' '}
+              <a
+                href="https://vuxuantiep.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                vuxuantiep.de
+              </a>
+            </p>
           </div>
           <button className="flex items-center gap-2 bg-[#0052ff] hover:bg-blue-700 text-white px-5 py-2.5 rounded-full text-[13px] font-semibold shadow-[0_6px_15px_rgba(0,82,255,0.3)] transition-all transform hover:-translate-y-0.5 shrink-0">
             <span className="text-[18px] leading-none mb-0.5">+</span> Mitglied
@@ -1092,7 +1120,7 @@ function CorporateLLMTeamView() {
               <tbody className="text-[14px]">
                 <MemberRow
                   name="Tiep"
-                  email="tiep@itiep.de"
+                  email="tiep@vuxuantiep.de"
                   role="Admin"
                   status="Aktiv"
                   initials="MK"
@@ -1100,7 +1128,7 @@ function CorporateLLMTeamView() {
                 />
                 <MemberRow
                   name="Lena Vogt"
-                  email="lena@itiep.de"
+                  email="lena@vuxuantiep.de"
                   role="Mitglied"
                   status="Aktiv"
                   initials="LV"
@@ -1108,7 +1136,7 @@ function CorporateLLMTeamView() {
                 />
                 <MemberRow
                   name="Tobias Reich"
-                  email="tobias@itiep.de"
+                  email="tobias@vuxuantiep.de"
                   role="Mitglied"
                   status="Aktiv"
                   initials="TR"
@@ -1116,7 +1144,7 @@ function CorporateLLMTeamView() {
                 />
                 <MemberRow
                   name="Sara Brandt"
-                  email="sara@itiep.de"
+                  email="sara@vuxuantiep.de"
                   role="Mitglied"
                   status="Eingeladen"
                   initials="SB"
@@ -1124,7 +1152,7 @@ function CorporateLLMTeamView() {
                 />
                 <MemberRow
                   name="Jonas Funk"
-                  email="jonas@itiep.de"
+                  email="jonas@vuxuantiep.de"
                   role="Mitglied"
                   status="Aktiv"
                   initials="JF"
