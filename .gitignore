@@ -18,6 +18,12 @@ coverage/
 .env*
 !.env.example
 
+# Cloudflare / OpenNext
+.open-next/
+.wrangler/
+.dev.vars
+cloudflare-env.d.ts
+
 # Editor / Tools
 .continue/
 .DS_Store

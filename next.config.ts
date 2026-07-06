@@ -25,3 +25,7 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// Bindet Cloudflare-Bindings (env, ctx) in `next dev` ein.
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
+initOpenNextCloudflareForDev();

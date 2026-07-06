@@ -1,6 +1,8 @@
-# Sovereign AI Cockpit
+# Sovereign AI Cockpit (TraceAI)
 
 Frontend für eine souveräne, lokal betriebene KI-Plattform (Dark-Mode-Design), gebaut mit Next.js 15, React 19 und Tailwind CSS 4.
+
+**Live:** https://trace-ai.vuxuantiep.de
 
 ## Features
 
@@ -51,3 +53,17 @@ npm start
 ```
 
 Der Build ist als `standalone` konfiguriert und damit gut für Container-Deployments geeignet.
+
+## Deployment (Cloudflare Workers)
+
+Das Projekt wird über [@opennextjs/cloudflare](https://opennext.js.org/cloudflare) auf Cloudflare Workers deployt (Konfiguration: [wrangler.jsonc](wrangler.jsonc), [open-next.config.ts](open-next.config.ts)).
+
+```
+npm run preview   # Build + lokale Vorschau in der Workers-Runtime
+npm run deploy    # Build + Deploy zu Cloudflare
+```
+
+- **Custom Domain:** https://trace-ai.vuxuantiep.de
+- **workers.dev:** https://trace-ai.vuxuantiep-b2f.workers.dev
+
+Hinweis: Die Route `/api/ollama` ruft die lokale Ollama-CLI auf und funktioniert daher nur im lokalen Betrieb, nicht in der Cloud.

@@ -798,7 +798,7 @@ function CorporateLLMView() {
              </div>
              <div>
                <div className="text-[13px] font-bold text-[#1d1d1f] truncate leading-tight">
-                 Vu Xuan Tiep (itiep.de)
+                 Vu Xuan Tiep (vuxuantiep.de)
                </div>
                <div className="text-[10px] text-[#86868b] font-medium mt-0.5">
                  Pro · 15 Seats
@@ -874,7 +874,7 @@ function CorporateLLMView() {
               <div className="text-[13px] font-bold text-gray-900 leading-tight">
                 Tiep
               </div>
-              <div className="text-[11px] text-gray-500">Vu Xuan Tiep (itiep.de)</div>
+              <div className="text-[11px] text-gray-500">Vu Xuan Tiep (vuxuantiep.de)</div>
             </div>
           </div>
         </div>
@@ -1017,7 +1017,7 @@ function CorporateLLMTeamView() {
             <h1 className="text-[32px] font-extrabold text-[#1d1d1f] mb-1 tracking-tight">
               Team & Verwaltung
             </h1>
-            <p className="text-[#86868b] text-[14px]">Vu Xuan Tiep (itiep.de)</p>
+            <p className="text-[#86868b] text-[14px]">Vu Xuan Tiep (vuxuantiep.de)</p>
           </div>
           <button className="flex items-center gap-2 bg-[#0052ff] hover:bg-blue-700 text-white px-5 py-2.5 rounded-full text-[13px] font-semibold shadow-[0_6px_15px_rgba(0,82,255,0.3)] transition-all transform hover:-translate-y-0.5 shrink-0">
             <span className="text-[18px] leading-none mb-0.5">+</span> Mitglied
